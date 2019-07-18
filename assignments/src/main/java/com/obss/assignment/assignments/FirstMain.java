@@ -15,7 +15,7 @@ public class FirstMain {
 			third.run();
 		} catch (Exception e) {
 			logger.setLevel(Level.DEBUG);
-			logger.debug(e.getCause(),e);
+			logger.debug("Failed! "+e.getCause(),e);
 			// TODO: handle exception
 		}
 	}
