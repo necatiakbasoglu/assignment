@@ -1,0 +1,9 @@
+[main] DEBUG sources.Third  - java.lang.ArithmeticException: / by zero
+exceptions.CustomException: An other ex is created!
+	at sources.Third.run(Third.java:13)
+	at com.obss.assignment.assignments.FirstMain.main(FirstMain.java:15)
+Caused by: java.lang.ArithmeticException: / by zero
+	at sources.First.genEx(First.java:5)
+	at sources.Second.callEx(Second.java:6)
+	at sources.Third.run(Third.java:10)
+	... 1 more
